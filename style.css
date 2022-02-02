@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color:blueviolet;
+}
+
+h2 {
+  color:green;
+  text-align: center;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+body {
+  font-family: 'gstatic', sans-serif;
+  font-weight: 300;
+}
+
+.card {
+  text-align: center;
+  color: black;
+  border: 5px;
+  margin: 12px;
+  padding: 12px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
